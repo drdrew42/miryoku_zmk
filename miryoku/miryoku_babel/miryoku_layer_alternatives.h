@@ -350,7 +350,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_ALTERNATIVES_NUM \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp ASTRK,         &kp N7,            &kp N8,            &kp N9,            U_NA,              \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp N4,            &kp N5,            &kp N6,            U_NA,              \
-U_NA,              &kp RALT,          &u_to_U_MEDIA,     &u_to_U_NUM,       U_NA,              &kp N0,            &kp N1,            &kp N2,            &kp N3,            U_NA,              \
+U_NA,              &kp RALT,          &u_to_U_MEDIA,     &u_to_U_NUM,       U_NA,              &kp N0,            &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp RET,           &kp DOT,           U_NP,              U_NP
 
 
@@ -364,7 +364,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp PLUS,          &kp ASTRK,         &kp BSLH,          &kp SLASH,         &kp PIPE,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp CARET,         &kp PRCNT,         &kp AT,            &kp DOLLAR,        &kp AMPS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp SEMI,          &kp TILDE,         &kp EXCL,          &kp EQUAL,         &kp COLON,         U_NA,              &u_to_U_SYM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp UNDER,         &kp LPAR,          &kp RPAR,          U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,              &kp HASH,          &kp LPAR,          &kp RPAR,          U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
