@@ -287,6 +287,10 @@ jobs:
               fi
             fi
           done
+          for nrfxlib in "${GITHUB_WORKSPACE}"/modules/nrfconnect-sdk-nrfxlib-*
+          do
+            test -d "$nrfxlib" && ln -sfn "$nrfxlib" "${GITHUB_WORKSPACE}/zmk/nrfxlib"
+          done
           if [ -n "$module_dirs" ]
           then
             modules_arg="-DZMK_EXTRA_MODULES=\"$module_dirs\""
