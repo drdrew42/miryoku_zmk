@@ -15,7 +15,7 @@ jobs:
       board: '["nice_nano/nrf52840/zmk"]'
       shield: '["temper_left nice_view_adapter nice_view","temper_right nice_view_adapter nice_view"]'
       custom_config: '["#define MIRYOKU_CLIPBOARD_MAC"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY=y\nCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y\nCONFIG_ZMK_POINTING=y\nCONFIG_ZMK_BLE_EXPERIMENTAL_CONN=y\nCONFIG_BT_AUTO_PHY_UPDATE=n\nCONFIG_BT_AUTO_DATA_LEN_UPDATE=n\nCONFIG_BT_LL_SW_SPLIT=n\nCONFIG_ZMK_BT_LL_SOFTDEVICE=y"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY=y\nCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y\nCONFIG_ZMK_POINTING=y\nCONFIG_ZMK_BLE_EXPERIMENTAL_CONN=y\nCONFIG_BT_AUTO_PHY_UPDATE=n\nCONFIG_BT_AUTO_DATA_LEN_UPDATE=n"]'
       alphas: '["qwerty"]'
       branches: '["zmkfirmware/zmk/main"]'
       modules: '["dgct/zmk-softdevice-controller/main nrfconnect/sdk-nrfxlib/v3.4.0"]'
