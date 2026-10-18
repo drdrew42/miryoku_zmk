@@ -317,6 +317,10 @@ jobs:
           west $west_debug init -l app
           west $west_debug update
           west $west_debug zephyr-export
+          for patch in "${GITHUB_WORKSPACE}"/miryoku_zmk/config/patches/zephyr-*.patch
+          do
+            test -f "$patch" && git -C "${GITHUB_WORKSPACE}/zmk/zephyr" apply --verbose "$patch"
+          done
           echo "::endgroup::"
 
           echo "::group::build"
